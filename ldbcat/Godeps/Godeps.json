@@ -1,0 +1,17 @@
+{
+	"ImportPath": "github.com/dolzenko/tools/ldbcat",
+	"GoVersion": "go1.3.3",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/syndtr/goleveldb/leveldb",
+			"Rev": "c9e0ae706141dc099005d6d247e4880c7feda2e1"
+		},
+		{
+			"ImportPath": "github.com/syndtr/gosnappy/snappy",
+			"Rev": "ce8acff4829e0c2458a67ead32390ac0a381c862"
+		}
+	]
+}
