@@ -29,7 +29,7 @@ func main() {
 
 	iter := db.NewIterator(nil, nil)
 	for iter.Next() {
-		fmt.Printf("%s\t%s\n", string(iter.Key()), string(iter.Value()))
+		fmt.Printf("%+q\t%s\n", string(iter.Key()), string(iter.Value()))
 	}
 	iter.Release()
 	abortOn(iter.Error())
